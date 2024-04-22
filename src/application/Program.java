@@ -27,7 +27,6 @@ public class Program {
 		
 		CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
 		
-		System.out.println("Ola");
 		
 		sc.close();
 	}
