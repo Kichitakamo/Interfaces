@@ -4,7 +4,6 @@ import java.time.Duration;
 
 import model.entities.CarRental;
 import model.entities.Invoice;
-
 public class RentalService {
 
 	private Double pricePerDay;
