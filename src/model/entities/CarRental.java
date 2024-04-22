@@ -3,7 +3,7 @@ package model.entities;
 import java.time.LocalDateTime;
 
 public class CarRental {
-	
+
 	private LocalDateTime start;
 	private LocalDateTime finish;
 	
@@ -17,7 +17,6 @@ public class CarRental {
 		this.start = start;
 		this.finish = finish;
 		this.vehicle = vehicle;
-		
 	}
 
 	public LocalDateTime getStart() {
@@ -32,7 +31,7 @@ public class CarRental {
 		return finish;
 	}
 
-	public void setFisish(LocalDateTime finish) {
+	public void setFinish(LocalDateTime finish) {
 		this.finish = finish;
 	}
 
@@ -51,7 +50,4 @@ public class CarRental {
 	public void setInvoice(Invoice invoice) {
 		this.invoice = invoice;
 	}
-
-	
-
 }
